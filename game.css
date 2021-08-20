@@ -1,0 +1,67 @@
+body
+{
+	background-image:url("https://www.mykidstime.com/wp-content/uploads/2020/04/Math-websites-for-kids-1.jpg");
+	background-position: center;
+	background-size:cover;
+}
+
+	.login_div1
+	{
+		background: navy;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+		color: white;
+	}
+	.login_div2
+	{
+		background: goldenrod;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+		color: black;
+	}
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+	color:black;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+#Math_label{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	position: relative;
+	animation-name:MATH;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	text-align: center;
+	font-size:80px;
+  }
+
+  @keyframes MATH {
+	0%   {background-color:red; left:0px; top:0px;}
+	25%  {background-color:rgb(255, 81, 0); left:200px; top:0px;}
+	50%  {background-color:rgb(251, 255, 0); left:200px; top:200px;}
+	75%  {background-color:green; left:0px; top:200px;}
+	100% {background-color:rgba(25, 0, 255, 0.719); left:0px; top:0px;}
+  }

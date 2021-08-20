@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+<title>The math quiz game!</title>    
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<link rel="stylesheet" type="text/css" href="screen.css">
+<body>
+    <h4 id="player1_name"></h4><span id="player1_score"></span>
+    <h4 id="player2_name"></h4><span id="player2_score"></span>
+    <div class="container"></div>
+    <center>
+        <h2 style="color : rgb(63, 0, 0);"><b>Math quiz game </b></h2>
+        <h4  id="player_question" style="color:rgb(21, 255, 234);"><b>Player question : </b></h4>
+        <h4 id="player_answer" style="color:rgb(21, 255, 234);"><b>Player answer : </b></h4>
+        <div id="output" class="col-lg-6"></div>
+        <br>
+        <h5>number 1</h5>
+        <input id="number1_input" class="form-control" placeholder="enter number 1">
+        <h5>number 2</h5>
+        <input id="number2_input" class="form-control" placeholder="enter number 2">
+        <br>
+        <button id="send" onclick="send()" class="btn btn-success">Send</button>
+    </center>
+
+<script src="screen2.js"></script>    
+</body>
+</html>
